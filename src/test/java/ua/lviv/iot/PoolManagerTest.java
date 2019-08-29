@@ -1,11 +1,10 @@
 package ua.lviv.iot;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ua.lviv.iot.manager.PoolManager;
 import ua.lviv.iot.models.Pool;
-
-import org.junit.jupiter.api.BeforeEach;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +12,7 @@ import java.util.List;
 public class PoolManagerTest {
 
     private List<Pool> listOfPools = new ArrayList();
-
     private PoolManager poolManager = new PoolManager();
-
-    private ArrayList listOfPoolsCapacity = new ArrayList();
 
     @BeforeEach
     public void setUp() {
@@ -37,5 +33,16 @@ public class PoolManagerTest {
         Assertions.assertEquals(400.0, sortedListOfPools.get(2).getCapacity());
         Assertions.assertEquals(100.0, sortedListOfPools.get(3).getCapacity());
         Assertions.assertEquals(50.0, sortedListOfPools.get(4).getCapacity());
+    }
+
+    @Test
+    void testMergeSortByDecreaseOfVisitors() {
+
+        List<Pool> sortedListOfPools = poolManager.mergeSortByDecreaseOfVisitors(listOfPools);
+        Assertions.assertEquals(400, sortedListOfPools.get(0).getMaxNumberOfVisitors());
+        Assertions.assertEquals(340, sortedListOfPools.get(1).getMaxNumberOfVisitors());
+        Assertions.assertEquals(50, sortedListOfPools.get(2).getMaxNumberOfVisitors());
+        Assertions.assertEquals(20, sortedListOfPools.get(3).getMaxNumberOfVisitors());
+        Assertions.assertEquals(10, sortedListOfPools.get(4).getMaxNumberOfVisitors());
     }
 }

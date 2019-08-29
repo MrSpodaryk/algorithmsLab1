@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe2bb0b-1c11-4e4c-bc64-31c09c016646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/models/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="907">
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/models/Pool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="660">
               <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding>
                 <element signature="e#180#181#0" expanded="true" />
@@ -63,14 +63,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
+            <state relative-caret-position="418">
+              <caret line="158" column="69" selection-start-line="158" selection-start-column="69" selection-end-line="158" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="579" column="48" selection-start-line="579" selection-start-column="48" selection-end-line="579" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="115" selection-start-column="115" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -87,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+            <state relative-caret-position="103">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +140,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/models/Pool.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java" />
+        <option value="$PROJECT_DIR$/text.txt" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java" />
       </list>
     </option>
   </component>
@@ -195,6 +223,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithmsLab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithmsLab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -218,6 +254,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
@@ -300,15 +337,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PoolManagerTest_testSelectionSortByDecreaseOfCapacity - 2019.08.29 at 12h 18m 23s.xml">
-      <configuration name="PoolManagerTest.testSelectionSortByDecreaseOfCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PoolManagerTest_testSelectionSortByDecreaseOfCapacity - 2019.08.29 at 12h 18m 41s.xml">
-      <configuration name="PoolManagerTest.testSelectionSortByDecreaseOfCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PoolManagerTest_testSelectionSortByDecreaseOfCapacity - 2019.08.29 at 12h 29m 17s.xml">
-      <configuration name="PoolManagerTest.testSelectionSortByDecreaseOfCapacity" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PoolManagerTest_testSelectionSortByDecreaseOfCapacity - 2019.08.29 at 12h 31m 40s.xml">
       <configuration name="PoolManagerTest.testSelectionSortByDecreaseOfCapacity" configurationId="JUnit" />
     </history-entry>
@@ -330,6 +358,15 @@
     <history-entry file="PoolManagerTest - 2019.08.29 at 14h 00m 42s.xml">
       <configuration name="PoolManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PoolManagerTest - 2019.08.29 at 20h 56m 36s.xml">
+      <configuration name="PoolManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolManagerTest - 2019.08.29 at 20h 57m 23s.xml">
+      <configuration name="PoolManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolManagerTest - 2019.08.29 at 21h 15m 06s.xml">
+      <configuration name="PoolManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -340,7 +377,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -348,8 +385,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23197491" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23197491" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -364,22 +401,47 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmsLab1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="398" column="37" selection-start-line="398" selection-start-column="37" selection-end-line="398" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="443" column="8" selection-start-line="443" selection-start-column="8" selection-end-line="443" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="579" column="48" selection-start-line="579" selection-start-column="48" selection-end-line="579" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="115" selection-start-column="115" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/models/Pool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="660">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
@@ -398,30 +460,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="443" column="8" selection-start-line="443" selection-start-column="8" selection-end-line="443" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/manager/PoolManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
+        <state relative-caret-position="418">
+          <caret line="158" column="69" selection-start-line="158" selection-start-column="69" selection-end-line="158" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/PoolManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmsLab1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
